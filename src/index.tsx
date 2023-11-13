@@ -6,7 +6,7 @@ import { MoviesListPage } from './pages/';
 import { MoviePage } from './pages/';
 import { NotFoundPage } from './pages/';
 import GenresPage from './pages/GenresPage/GenresPage';
-import SearchPage from "./pages/SearchPage/SearchPage";
+import { SearchPage } from './pages/SearchPage/SearchPage';
 
 const root = createRoot(document.getElementById('root'));
 

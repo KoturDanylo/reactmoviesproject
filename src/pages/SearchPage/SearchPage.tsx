@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 
-import { MoviesList } from '../../Components/MoviesList/MoviesList';
+import { MoviesList } from '../../Components/MoviesList';
 import css from '../../Components/Header/Header.module.css';
 import { movieService } from '../../Services';
 
@@ -43,4 +42,6 @@ const SearchPage = () => {
     );
 };
 
-export default SearchPage;
+export  {
+    SearchPage
+};
